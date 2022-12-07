@@ -1,0 +1,66 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <!-- Import bootstrap -->
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/umd/popper.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Demonination Notes</h1>
+        @{
+            List<int> Demonition = new List<int> { 1000, 500, 100, 10, 1 };
+            List<int> NotesCount = new List<int>();
+
+            if (ViewBag.Amount > 0)
+            {
+                int amountTemp = ViewBag.Amount;
+                foreach (int demonitionCount in Demonition)
+                {
+                    int CurrCount = Convert.ToInt32(amountTemp / demonitionCount);
+
+                    NotesCount.Add(CurrCount);
+
+                    amountTemp = amountTemp - (CurrCount * demonitionCount);
+                }
+            }
+        }
+
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Denomination</th>
+                            <th>Count</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @* read data from currencyCount and denominations collection *@
+                        @for (int i = 0; i < NotesCount.Count; i++)
+                        {
+                            <tr>
+                                <td>@Demonition[i]</td>
+                                <td>@NotesCount[i]</td>
+                                <td>@(Demonition[i] * NotesCount[i])</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

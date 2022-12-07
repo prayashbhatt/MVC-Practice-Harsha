@@ -1,0 +1,39 @@
+﻿@model List<ModelExample.Models.Product> 
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Products</h2>
+<a href="@Url.Action("Create","Product")">Create Product</a>
+<table class="table">
+    <thead>
+        <tr>
+            <td>Product ID</td>
+            <td>Product Name</td>
+            <td>Rate</td>
+        </tr>
+    </thead>
+    <tbody>
+        @*Without strongly typed views*@
+        @*@foreach (var item in ViewBag.products)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td><a href="/products/details/@item.ProductId">@item.ProductName</a></td>
+                <td>@item.Rate</td>
+            </tr>
+        }*@
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td><a href="/products/details/@item.ProductId">@item.ProductName</a></td>
+                <td>@item.Rate</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+

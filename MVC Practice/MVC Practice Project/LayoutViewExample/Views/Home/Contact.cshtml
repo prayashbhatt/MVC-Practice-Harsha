@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    //Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+
+    /*Layout file commented due to a _viewstart.cshtml file is created for all views*/
+}
+
+<h2>Contact</h2>
+
+@{
+    ViewBag.Message = "24 X 7 support...";
+}
+
+@{
+    ViewBag.ListTitle = "Products";
+    ViewBag.Items = new List<string> { "Co operate Office", "Support Teams", "Marketing Team" };
+    Html.RenderPartial("ListPartialView");
+}
+
+@section SidebarSection{
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">Contact Marketing Team</a>
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">Contact Installation Technician</a>
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">Contact Support Team</a>
+}
