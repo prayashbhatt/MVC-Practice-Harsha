@@ -1,0 +1,3 @@
+Bootstrap Install-Package bootstrap -Version 4.6.0
+Popper     Install-Package popper.js -Version 1.16.1
+JQuery     Install-Package jQuery -Version 3.6.0

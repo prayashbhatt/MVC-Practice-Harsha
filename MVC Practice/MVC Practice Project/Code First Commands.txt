@@ -1,0 +1,9 @@
+To enable automatic migration
+1 enable-migrations -EnableAutomaticMigrations:$true
+Enable-Migrations
+
+To disable automatic migration, we need to create a point of migration
+1.add-migration InitialData
+2.update-database -verbose
+3.add-migration QuantityColumn 
+4.update-database -verbose
