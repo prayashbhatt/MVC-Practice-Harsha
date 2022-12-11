@@ -27,9 +27,9 @@
     <tr>
         <th>Date of Purchase</th>
         <td>
-            @if (Model.DateOfPurchase.HasValue)
+            @if (Model.DOP.HasValue)
             {
-                <span>@Model.DateOfPurchase.Value.ToString("d/M/yyyy")</span>
+                <span>@Model.DOP.Value.ToString("d/M/yyyy")</span>
             }
         </td>
     </tr>

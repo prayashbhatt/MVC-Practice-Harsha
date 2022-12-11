@@ -67,11 +67,11 @@ namespace EFDbCodeFirstApproachMigrationsManually.Controllers
             {
                 if (ViewBag.IconClass == "fa-sort-asc")
                 {
-                    products = products.OrderBy(prod => prod.DateOfPurchase).ToList();
+                    products = products.OrderBy(prod => prod.DOP).ToList();
                 }
                 else
                 {
-                    products = products.OrderByDescending(prod => prod.DateOfPurchase).ToList();
+                    products = products.OrderByDescending(prod => prod.DOP).ToList();
                 }
             }
             else if (ViewBag.SortColumn == "AvailabilityStatus")
@@ -109,7 +109,6 @@ namespace EFDbCodeFirstApproachMigrationsManually.Controllers
             }
 
             #endregion
-
 
             #region Paging
 
@@ -169,7 +168,7 @@ namespace EFDbCodeFirstApproachMigrationsManually.Controllers
             Product existingProduct = dbContext.Products.Where(Prod => Prod.ProductID == product.ProductID).FirstOrDefault();
             existingProduct.ProductName = product.ProductName;
             existingProduct.Price = product.Price;
-            existingProduct.DateOfPurchase = product.DateOfPurchase;
+            existingProduct.DOP = product.DOP;
             existingProduct.CategoryID = product.CategoryID;
             existingProduct.BrandID = product.BrandID;
             existingProduct.AvailabilityStatus = product.AvailabilityStatus;

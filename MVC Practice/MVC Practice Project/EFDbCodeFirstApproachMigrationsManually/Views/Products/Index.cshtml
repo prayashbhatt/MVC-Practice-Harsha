@@ -175,9 +175,9 @@
                 }
             </td>
             <td>
-                @if (item.DateOfPurchase.HasValue)
+                @if (item.DOP.HasValue)
                 {
-                    <span>@item.DateOfPurchase.Value.ToString("d/M/yyyy")</span>
+                    <span>@item.DOP.Value.ToString("d/M/yyyy")</span>
                 }
             </td>
             <td>@item.AvailabilityStatus</td>
