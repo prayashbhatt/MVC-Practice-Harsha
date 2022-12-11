@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{06E7443E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstApproachCodeFirstApproach", "EFDbFirstApproachCodeFirstApproach\EFDbFirstApproachCodeFirstApproach.csproj", "{38BACAA9-2322-4981-97F0-CD86268CFBDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDbFirstApproachCodeFirstApproachRecreateDB", "EFDbFirstApproachCodeFirstApproachRecreateDB\EFDbFirstApproachCodeFirstApproachRecreateDB.csproj", "{60BB9E80-6234-4A78-A7CD-976591D1C92C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{38BACAA9-2322-4981-97F0-CD86268CFBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38BACAA9-2322-4981-97F0-CD86268CFBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38BACAA9-2322-4981-97F0-CD86268CFBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60BB9E80-6234-4A78-A7CD-976591D1C92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60BB9E80-6234-4A78-A7CD-976591D1C92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60BB9E80-6234-4A78-A7CD-976591D1C92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60BB9E80-6234-4A78-A7CD-976591D1C92C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
