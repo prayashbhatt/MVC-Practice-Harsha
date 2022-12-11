@@ -39,13 +39,13 @@ E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Prac
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Webpages.Razor.dll
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\EntityFramework.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\EntityFramework.SqlServer.xml
+E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Razor.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Webpages.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Webpages.Deployment.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Webpages.Razor.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Helpers.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\System.Web.Mvc.xml
-E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\obj\Debug\EFDbFirstApproachCodeFirstApproachRecreateDB.csproj.AssemblyReference.cache
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\obj\Debug\EFDbFirstApproachCodeFirstApproachRecreateDB.csproj.CoreCompileInputs.cache
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDbFirstApproachCodeFirstApproachRecreateDB\obj\Debug\EFDbFirstApproachCodeFirstApproachRecreateDB.csproj.CopyComplete
