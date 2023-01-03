@@ -77,3 +77,4 @@ E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Prac
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDBHtmlHelpers\obj\Debug\EFDBHtmlHelpers.csproj.CopyComplete
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDBHtmlHelpers\obj\Debug\EFDBHtmlHelpers.dll
 E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDBHtmlHelpers\obj\Debug\EFDBHtmlHelpers.pdb
+E:\My Programs\Asp.net MVC\Mvc-Harsha\MVC Practice Project\MVC Practice\MVC Practice Project\EFDBHtmlHelpers\obj\Debug\EFDBHtmlHelpers.Migrations.Quantity.resources
