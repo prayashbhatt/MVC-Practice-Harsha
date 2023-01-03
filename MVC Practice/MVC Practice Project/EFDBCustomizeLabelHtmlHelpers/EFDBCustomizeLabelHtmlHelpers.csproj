@@ -223,6 +223,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HtmlHelpers\FileHelper.cs" />
     <Compile Include="Migrations\202212111026235_InitialData.cs" />
     <Compile Include="Migrations\202212111026235_InitialData.Designer.cs">
       <DependentUpon>202212111026235_InitialData.cs</DependentUpon>
@@ -231,9 +232,9 @@
     <Compile Include="Migrations\202212111036514_QuantityColumn.Designer.cs">
       <DependentUpon>202212111036514_QuantityColumn.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202301031721434_Quantity.cs" />
-    <Compile Include="Migrations\202301031721434_Quantity.designer.cs">
-      <DependentUpon>202301031721434_Quantity.cs</DependentUpon>
+    <Compile Include="Migrations\202301031821543_Quantity.cs" />
+    <Compile Include="Migrations\202301031821543_Quantity.designer.cs">
+      <DependentUpon>202301031821543_Quantity.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Brand.cs" />
@@ -273,8 +274,8 @@
     <EmbeddedResource Include="Migrations\202212111036514_QuantityColumn.resx">
       <DependentUpon>202212111036514_QuantityColumn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202301031721434_Quantity.resx">
-      <DependentUpon>202301031721434_Quantity.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202301031821543_Quantity.resx">
+      <DependentUpon>202301031821543_Quantity.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

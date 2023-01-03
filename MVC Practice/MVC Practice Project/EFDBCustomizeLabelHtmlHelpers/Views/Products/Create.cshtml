@@ -1,5 +1,5 @@
 ﻿@model EFDBHtmlHelpers.Models.Product
-
+@using EFDBCustomizeLabelHtmlHelpers.HtmlHelpers
 @{
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
@@ -43,7 +43,8 @@
         </div>
         <div>
             <label for="Image">Image</label>
-            <input type="file" class="form-control-file" id="Image" name="Photo" />
+            @*<input type="file" class="form-control-file" id="Image" name="Photo" />*@
+            @Html.File("form-control-file")
         </div>
         <div class="form-group">
             <div class="form-check">

@@ -17,7 +17,7 @@ namespace EFDBHtmlHelpers.Models
         [Display(Name = "Product Name")]
         public string ProductName { get; set; }
 
-        [Display(Name = "Proice")]
+        [Display(Name = "Price")]
         public Nullable<decimal> Price { get; set; }
 
         [Column("DateOfPurchase",TypeName ="datetime")]
