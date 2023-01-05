@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDBHtmlHelpers", "EFDBHtml
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDBCustomizeLabelHtmlHelpers", "EFDBCustomizeLabelHtmlHelpers\EFDBCustomizeLabelHtmlHelpers.csproj", "{F2831012-0993-463F-8493-8DC0700C6ED4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDBValidations", "EFDBValidations\EFDBValidations.csproj", "{F38DD7BB-8FA7-426B-B6EF-0964485433DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F2831012-0993-463F-8493-8DC0700C6ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2831012-0993-463F-8493-8DC0700C6ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2831012-0993-463F-8493-8DC0700C6ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F38DD7BB-8FA7-426B-B6EF-0964485433DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38DD7BB-8FA7-426B-B6EF-0964485433DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38DD7BB-8FA7-426B-B6EF-0964485433DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38DD7BB-8FA7-426B-B6EF-0964485433DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
